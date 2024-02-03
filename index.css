@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin-top: 200vh;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #377dff;
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.clock {
+  width: 50vw;
+  min-height: 20vh;
+  font-size: 45px;
+  color: black;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 50vw;
+  max-width: 80%;
+  padding: 3.12em 5em;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 2rem;
+  border-radius: 2rem;
+}
+
+.set-alarm {
+  margin-top: 10px;
+}
+
+.input-group {
+  display: inline-block;
+  display: flex;
+  /* align-items: justify; */
+  justify-content: center;
+}
+
+.column {
+  display: inline-block;
+  display: flex;
+  align-items: justify;
+  justify-content: center;
+  gap: 3rem;
+  /* border-radius: 4px solid black; */
+}
+.column select {
+  width: 105px;
+  height: 53px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 19px;
+}
+
+.tag-name {
+  color: #051937;
+  font-size: 30px;
+}
+.set-alarm-btn {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 17px 0;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #4a98f7;
+}
+.alaramLog {
+  font-size: 3vmin;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25rem;
+}
+
+.btn-delete {
+  width: 10%;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 2vmin;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #4a98f7;
+  /* gap: vmin; */
+  color: white;
+  border: #fff;
+}
+
+.btn-stop {
+  width: 15%;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 3vmin;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #4a98f7;
+  /* gap: vmin; */
+  color: white;
+  border: #fff;
+  visibility: hidden;
+}
