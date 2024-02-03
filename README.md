@@ -14,7 +14,7 @@ A basic web-based alarm clock project built using HTML, CSS, and JavaScript.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/alarm-clock.git
+   git clone https://github.com/adarshsingh705/alarm-clock.git
 
 2. Hosted link
    ```
