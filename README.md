@@ -15,6 +15,10 @@ A basic web-based alarm clock project built using HTML, CSS, and JavaScript.
 
    ```bash
    git clone https://github.com/your-username/alarm-clock.git
+
+2. Hosted link
+   ```
+   https://adarshsingh705.github.io/alarm-clock/
    
 ## Usage
 1. Set an alarm by selecting the hour, minute, and AM/PM.
